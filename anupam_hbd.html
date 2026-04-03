@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Anupam | Mamba Mentality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg-layer" class="bg-layer"></div>
+
+    <!-- Tap to Begin Screen -->
+    <div id="start-screen" class="start-screen">
+        <div class="start-content">
+            <div class="mamba-logo">🐍</div>
+            <h1 class="start-title">MAMBA SYSTEM</h1>
+            <button id="start-btn" class="start-btn">TAP TO BEGIN</button>
+        </div>
+    </div>
+
+    <!-- Terminal Screen -->
+    <div id="terminal-screen" class="terminal-screen hidden">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <span class="terminal-title">mamba.system</span>
+                <div class="terminal-controls">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                </div>
+            </div>
+            <div id="terminal-output" class="terminal-output"></div>
+        </div>
+    </div>
+
+    <!-- Main Celebration Content -->
+    <div id="main-content" class="main-content hidden">
+        <div class="center-content">
+            <div class="photo-container">
+                <img src="anupam.jpeg" alt="Anupam" id="profile-photo">
+            </div>
+            
+            <div class="message-container">
+                <h1 class="birthday-title">
+                    Happy Birthday <span class="gold-text">Anupam</span> 🎉
+                </h1>
+                
+                <div class="quote-container">
+                    <div class="quote-text">
+                        “Rest at the end, not in the middle.”
+                    </div>
+                    <div class="credit">- Kobe Bryant</div>
+                </div>
+                
+                <div class="keep-rising">keep rising, brother! 🐍</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti" class="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
